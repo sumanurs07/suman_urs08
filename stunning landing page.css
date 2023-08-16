@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Sora', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+.stunning-logo{
+    width: 120px;
+    margin-left: 80px;
+}
+.header-middle{
+    margin: 0px 30px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #9896a5;
+}
+.button{
+    margin-right: 80px;
+    padding: 20px 30px;
+    border-width: 0px;
+    border-radius: 20px;
+    color:#A389CC;
+    background-color:#FFD8DB;
+    font-size: 13px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.header-middle:hover{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #8071D0;
+}
+.middle-section{
+    display: flex;  
+    flex-direction: row;
+    margin: 80px 0px;
+}
+.content-section{
+    width: 40%;
+    padding-left: 170px;
+    margin-top: 0px;
+}
+.stunning-workplace{
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: inline;
+}
+.icon{
+    color: #8071D0;
+}
+.stunning-paragraph{
+    font-size: 18px;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.image-section{
+    width: 60%;
+}
+.landing-section-image{
+    width: 95%;
+}
+.new-account-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.new-account{
+    background-color:#5243C0;
+    color: #ffffff; 
+    padding: 20px 40px;
+    border-width: 0px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-right: 20px;  
+}
+.new-account:hover{
+    cursor: pointer;
+}
+.arrow-up{
+    margin-right: 10px;
+}
+.bottom-section{
+    width: 80%;
+    margin-top: 100px;
+}
+.design-card{
+    display: flex;  
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(244,244,244);
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 5px 0px;
+}
+.tick-name{
+    display: flex;
+    align-items: center;
+}
+.design-para{
+    font-size: 15px;
+    width: 150px;
+    font-weight: bold;
+    margin-left: 15px;  
+}
+.date-para{
+    font-size: 15px;
+    color: #9896a5;
+}
+.Dmm-design-button{
+    padding: 8px 16px;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color: #FED7DA;
+}
+.blurr-animation-button{
+    padding: 8px 16px;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color: #FD6534;
+}
+.Illustration-button{
+    padding: 8px 16px;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color: #9ED095;
+}
+.refunds-button{
+    padding: 8px 16px;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color:#FFE4A0;
+}
+.design-card:hover{
+    box-shadow: 3px 3px 15px #9896a5,-3px -3px 15px #9896a5;
+    background-color: white;
+    cursor: pointer;
+    background-image: url("./tick-blue.png");
+    background-repeat: no-repeat;
+    background-position: 14px 14px;
+    .gray-tick{
+        visibility: hidden;
+    }
+    
+}
